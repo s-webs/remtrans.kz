@@ -1,0 +1,28 @@
+@import "plugins/normalize";
+@import "plugins/ibg";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f2f3f4;
+	font-family: "Open Sans", sans-serif;
+}
+
+p {
+	line-height: 160%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "plugins/container";
+@import "plugins/header";
+@import "plugins/services";
+@import "plugins/page-services";
+@import "plugins/home";
+@import "plugins/contacts";
+@import "plugins/reviews";
+@import "plugins/about";
+@import "plugins/documents";
+
+@import "plugins/footer";
